@@ -34,6 +34,8 @@ Prior to testing the data, it was preprocessed for quality and suitability. Usin
 
 Within JL, EDA was completed to check for duplicates, nulls and outliers in the training set, along with changing fields such as sleep disorder, BMI, occupation and gender to number categories. Additionally, the ID column was dropped as it was not a necessary variable (Fig.2). The figures below are examples of EDA performed.
 
+![Fig2](images/fig2.png)
+
 *3.2 Logistic regression*
 The purpose of the project was to predict the outcome of the likelihood of developing a sleep disorder, the most suitable method was logistic regression. The data was split into test and train groups, these were randomly selected, with the test group forming 30% of the data.
 

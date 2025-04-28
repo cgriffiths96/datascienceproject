@@ -10,8 +10,10 @@ You will find:
 ### Executive Summary
 This report provides an evaluation of a sleep health study conducted with 400 participants. Logistic regression was used in order to understand the probability of the variables predicting the likelihood of developing a sleep disorder. The final model had an accuracy of 56% and demonstrated that the biggest influences on developing a sleep disorder were high daily step count and being male. Interestingly, physical activity level (PAL) was the most protective factor. Despite the results, the model was heavily biased towards predicting no disorder. 
 The report concluded that walking increases the likelihood of developing sleep disorders and recommended that increasing PAL was the preferred preventative. The limitations of this study include lack of details around how participants logged the number of steps e.g. the use of a fitness tracker, and if they counted walking as part of their PAL. Furthermore, the dataset was biased and largely accounted for those without a sleep disorder, future work may consider looking only at participants with sleep disorders.
+
 *1.0	Introduction*
 Research shows that sleep is vital for daily functioning, with people spending on average up to one quarter of their day sleeping. Previous sleep studies have implied that poor sleep can be linked to detrimental health outcomes amongst the older population (Chen, Waite and Lauderdale, 2015; Chai and Lu, 2025).
+
 *2.0 Data Collection*
 The dataset was sourced from Kaggle, a public platform. As the data was publicly available it had undergone anonymisation, meaning the participants could not be identified, complying with the General Data Protection Regulation (GDPR) (ICO, 2023). Additionally, complying with the Data Ethics Framework, the data was only used for the objective of the project, to find a correlation between health and sleep disorders (Gov.uk, 2020). 
 When considering poor health, it was important to consider what factors may lead to developing sleep disorders. Studies suggest links to stress, mental health illnesses, gender, age and weight (Mind.org.uk, 2024, The Sleep Charity, 2023). Some of the significant variables for this project allowed the analysis to understand important aspects of the participants’ daily lives: 
@@ -24,6 +26,7 @@ When considering poor health, it was important to consider what factors may lead
 •	Sleep disorder
 *3.0 Data Analysis*-
 The hypothesis was ‘A BMI score over 25 and low PAL increases the chance of developing a sleep disorder’. The null hypothesis was that this would have no effect on developing a sleep disorder. Analysis took place on Jupyter Lab (JL) as this allowed the code to be ran at each step, ensuring the script worked and, where errors occurred, amended with ease
+
 *3.1 Exploratory data analysis (EDA)*
 Prior to testing the data, it was preprocessed for quality and suitability. Using Excel365 initial changes (Fig.1) were made to the format of the blood pressure data, changing the figure to a decimal number as the current format was not recognised in JL. Additionally, changing sleep disorder to Yes and No categories.
 ![Fig1](images/fig1.png)

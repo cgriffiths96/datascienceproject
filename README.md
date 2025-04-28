@@ -35,23 +35,42 @@ Prior to testing the data, it was preprocessed for quality and suitability. Usin
 Within JL, EDA was completed to check for duplicates, nulls and outliers in the training set, along with changing fields such as sleep disorder, BMI, occupation and gender to number categories. Additionally, the ID column was dropped as it was not a necessary variable (Fig.2). The figures below are examples of EDA performed.
 
 ![Fig2](images/fig2.png)
+![Fig3](images/fig3.png)
+![Fig4](images/fig4.png)
+![Fig5](images/fig5.png)
+![Fig6](images/fig6.png)
+![Fig7](images/fig7.png)
 
 *3.2 Logistic regression*
 The purpose of the project was to predict the outcome of the likelihood of developing a sleep disorder, the most suitable method was logistic regression. The data was split into test and train groups, these were randomly selected, with the test group forming 30% of the data.
 
+![Fig8](images/fig8.png)
+
 The model accuracy was 74%, however this rarely predicted an accurate sleep disorder, with a recall value of 5%. To improve the ability to detect a sleep disorder, the code was amended to prevent the model from ignoring the smaller group (Fig.9).
 
-Figure 9 - Top line added to code to ensure model includes smaller class
+![Fig9](images/fig9.png)
+
 The amendment reduced the accuracy of the model to 56%, however the recall value for finding sleep disorder participants increased to 34%. Unfortunately, the model (Fig.10) remained unable to accurately predict a sleep disorder with a precision of 26%, likely due to the imbalance of the data towards no disorder. 
+
+![Fig10](images/fig10.png)
 
 The key influence (Fig.11) in developing a sleep disorder was found to be daily steps, with an odds ratio of 34%, contrasting with the most protective factor as PAL at 27%. Interestingly, the average of the variables were over 11,000 steps and 65 minutes PAL, suggesting the participants were highly active. However, being male has been linked as a risk factor for sleep apnea which may explain the increased odds ratio of 23%. In this model, a higher BMI only increased the odds by 9% and was not an influential factor, therefore rejecting the hypothesis. 
 
+![Fig11](images/fig11.png)
+
 A performance comparison (Fig.12) was completed at the end of the analysis to observe if different models would produce better results. KNeighbors had a higher balanced accuracy suggesting it would handle the imbalances better. However, the study was looking at the probability of an outcome and how each variable influences the outcome which is difficult to interpret using KN.
+
+![Fig12](images/fig12.png)
 
 *4.0 Visualisation and Dashboards*
 Most data transformation and visualisation occurred Power BI, chosen for its user-friendly interface suited for beginners. Additionally, the size of the data did not require high specification and features that other providers such as Tableau offer (BI Connector, 2022). Figure 13 explains the extract, transform and load process the data underwent to prior to visualisation.
 
+![Fig13](images/fig13.png)
+
 The dashboard was created to give a clear understanding of the data, particularly for the contrasting effects between step count and PAL. The scatter chart shows that there is no clear link between daily steps and PAL, however when filtering the visual (Fig.14) for sleep disorders there is a cluster of participants with a high step count and low PAL. 
+
+![Fig14](images/fig14.png)
+![Fig15](images/fig15.png)
 
 *5.0 Discussion*
 Studies have shown that physical activity has been a useful tool in sleep management. A meta-analysis on 444 patients with sleep apnea found aerobic exercise combined with resistance training to be more effective than aerobic exercise alone (Peng et al., 2022).  Interestingly, Alnawwar (2023) observed high-intensity PAL were associated with poor sleep quality while exercises such as yoga and tai chi improved sleep and reduced the likelihood of insomnia. On the other hand, there are studies that show walking to be effective in improving sleep, however the majority of the studies focused on the elderly, highlighting the need for further research in young people.

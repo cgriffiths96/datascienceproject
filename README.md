@@ -29,7 +29,9 @@ The hypothesis was ‘A BMI score over 25 and low PAL increases the chance of de
 
 *3.1 Exploratory data analysis (EDA)*
 Prior to testing the data, it was preprocessed for quality and suitability. Using Excel365 initial changes (Fig.1) were made to the format of the blood pressure data, changing the figure to a decimal number as the current format was not recognised in JL. Additionally, changing sleep disorder to Yes and No categories.
+
 ![Fig1](images/fig1.png)
+
 Within JL, EDA was completed to check for duplicates, nulls and outliers in the training set, along with changing fields such as sleep disorder, BMI, occupation and gender to number categories. Additionally, the ID column was dropped as it was not a necessary variable (Fig.2). The figures below are examples of EDA performed.
 
 *3.2 Logistic regression*

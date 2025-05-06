@@ -104,3 +104,28 @@ The limitations of this study was the lack of information about how participants
 *6.0 Conclusion*
 
 It is clear there is a complex relationship between PAL and sleep, with some forms of activity appearing beneficial, existing research is inconsistent. The integration of emerging technologies offers the possibility for advanced research and improving early intervention. However future work must address the limitations such as sample imbalances and wider exercise incorporation.
+
+*References*
+Alnawwar, M.A. (2023). The effect of physical activity on sleep quality and sleep disorder: A systematic review. Cureus, 15(8). doi:https://doi.org/10.7759/cureus.43595.
+
+BI Connector (2022). Tableau vs Power BI: Key Differences and Comparisons. [online] BI connector Blog. Available at: https://www.biconnector.com/blog/tableau-vs-power-bi/.
+
+Chai, L. and Lu, Z. (2025). The association between financial strain and mental health: The mediating and moderating roles of sleep problems in the UK household longitudinal study (UKHLS). Journal of Affective Disorders, 377, pp.245–253. doi:https://doi.org/10.1016/j.jad.2025.02.060.
+
+Chen, J.-H., Waite, L.J. and Lauderdale, D.S. (2015). Marriage, Relationship Quality, and Sleep among U.S. Older Adults. Journal of Health and Social Behavior, 56(3), pp.356–377. doi:https://doi.org/10.1177/0022146515594631.
+
+GOV.UK (2020). Data Ethics Framework. [online] Available at: https://assets.publishing.service.gov.uk/media/5f74a4958fa8f5188dad0e99/Data_Ethics_Framework_2020.pdf.
+
+ICO (2023). What is personal data? [online] ico.org.uk. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/personal-information-what-is-it/what-is-personal-data/what-is-personal-data/.
+
+Mind.org.uk. (2024). Sleep and mental health. [online] Available at: https://www.mind.org.uk/information-support/types-of-mental-health-problems/sleep-problems/sleep-and-mental-health/?gad_source=1&gclid=Cj0KCQjw4cS-BhDGARIsABg4_J3KFOjK5VqWo90no0UgtqRq8xwMMDkC9RiGRx1uLMpO9ppa7IS6PqwaAuOZEALw_wcB [Accessed 12 Mar. 2025].
+
+Peng, J., Yuan, Y., Zhao, Y. and Ren, H. (2022). Effects of Exercise on Patients with Obstructive Sleep Apnea: A Systematic Review and Meta-Analysis. International Journal of Environmental Research and Public Health, [online] 19(17), p.10845. doi:https://doi.org/10.3390/ijerph191710845.
+
+Pinilla, L., Chai‐Coetzer, C.L. and Eckert, D.J. (2025). Diagnostic Modalities in Sleep Disordered Breathing: Current and Emerging Technology and Its Potential to Transform Diagnostics. Respirology. doi:https://doi.org/10.1111/resp.70012.
+
+San, L. and Belén Arranz (2024). The Night and Day Challenge of Sleep Disorders and Insomnia: A Narrative Review. Actas Españolas de Psiquiatría, [online] 52(1), p.45. Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC10926017/.
+
+Statista. (2025). UK: wearable ownership by type 2024. [online] Available at: https://www.statista.com/statistics/1459686/wearable-ownership-by-type-uk/.
+
+The Sleep Charity. (2023). Sleep Apnoea - The Sleep Charity. [online] Available at: https://thesleepcharity.org.uk/information-support/adults/sleep-disorders/sleep-apnoea/ [Accessed 12 Mar. 2025].
